@@ -1,0 +1,247 @@
+/* <a href="#" class="imageneon2">
+  <span class="imageneon2__line imageneon2__line--top"></span>
+  <span class="imageneon2__line imageneon2__line--right"></span>
+  <span class="imageneon2__line imageneon2__line--bottom"></span>
+  <span class="imageneon2__line imageneon2__line--left"></span>
+  Neon Button
+</a> */
+
+.imageneon2 {
+  position: relative;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.3s;
+  padding: 15px;
+  width: 40%;
+}
+
+.imageneon2__line {
+  position: absolute;
+  display: block;
+}
+
+.imageneon2__line--top {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #378ba4);
+}
+
+.imageneon2:hover .imageneon2__line--top {
+  left: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+.imageneon2__line--bottom {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #378ba4);
+}
+
+.imageneon2:hover .imageneon2__line--bottom {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+.imageneon2__line--left {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(0deg, transparent, #378ba4);
+}
+
+.imageneon2:hover .imageneon2__line--left {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0s;
+}
+
+.imageneon2__line--right {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #378ba4);
+}
+
+.imageneon2:hover .imageneon2__line--right {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0s;
+}
+
+.imageneon2:hover {
+  box-shadow: 0 0 10px #81bece, 0 0 40px #81bece, inset 0 0 10px #81bece;
+  transition-delay: 0.9s;
+}
+
+
+
+
+
+
+
+
+
+
+
+.imageneon2big {
+  position: relative;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.3s;
+  padding: 15px;
+  width: 90%;
+}
+
+.imageneon2big__line {
+  position: absolute;
+  display: block;
+}
+
+.imageneon2big__line--top {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #378ba4);
+}
+
+.imageneon2big:hover .imageneon2big__line--top {
+  left: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+.imageneon2big__line--bottom {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #378ba4);
+}
+
+.imageneon2big:hover .imageneon2big__line--bottom {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+.imageneon2big__line--left {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(0deg, transparent, #378ba4);
+}
+
+.imageneon2big:hover .imageneon2big__line--left {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0s;
+}
+
+.imageneon2big__line--right {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #378ba4);
+}
+
+.imageneon2big:hover .imageneon2big__line--right {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0s;
+}
+
+.imageneon2big:hover {
+  box-shadow: 0 0 10px #81bece, 0 0 40px #81bece, inset 0 0 10px #81bece;
+  transition-delay: 0.9s;
+}
+
+
+
+
+.buttonNavigate {
+  position: relative;
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 3px;
+  overflow: hidden;
+  padding: 15px 30px;
+  transition: 0.2s;
+}
+
+.buttonNavigate__line {
+  position: absolute;
+  display: block;
+}
+
+.buttonNavigate__line--top {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, white);
+}
+.buttonNavigate:hover .buttonNavigate__line--top {
+  left: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+.buttonNavigate__line--bottom {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, white);
+}
+.buttonNavigate:hover .buttonNavigate__line--bottom {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+.buttonNavigate__line--left {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(0deg, transparent, white);
+}
+.buttonNavigate:hover .buttonNavigate__line--left {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0s;
+}
+
+.buttonNavigate__line--right {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, white);
+}
+.buttonNavigate:hover .buttonNavigate__line--right {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0s;
+}
+
+.buttonNavigate:hover {
+  box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+  background-color: white;
+  color: #012e4a;
+  transition-delay: 1s;
+}
