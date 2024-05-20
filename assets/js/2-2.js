@@ -1,0 +1,1 @@
+document.write('<a href="http://oblzdrav.volganet.ru/other/otsenka-kachestva/" target="_blank">  <img alt="Оценка качества оказания услуг" src="http://oblzdrav.volganet.ru/other/otsenka-kachestva/nok.jpg" style="height: 78px; width: 200px"></a>');

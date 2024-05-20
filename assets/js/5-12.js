@@ -1,0 +1,1 @@
+document.write('<a href="https://gor-crb.ucoz.ru/rtr/5-12-1" target="_blank"><img alt="" border="0" src="http://gor-crb.ucoz.ru/Babners/banner_na_sajt.png" width="240" height="120"></a><div align="center" class="textUnderBanner"><a class="textUnderBannerLink" href="https://gor-crb.ucoz.ru/rtr/5-12-1" target="_blank">Внимание! Коронавирус!</a></div>');

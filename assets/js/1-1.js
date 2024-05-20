@@ -1,0 +1,1 @@
+document.write('<a href="http://registratura.volganet.ru/" target="_blank">  <img alt="Запись на прием к врачу" src="http://oblzdrav.volganet.ru/images/banners/e_med.png" style="height: 80px; width: 250px">');

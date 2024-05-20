@@ -1,0 +1,1 @@
+document.write('<a href="https://gor-crb.ucoz.ru/rtr/5-9-1" target="_blank"><img alt="" border="0" src="http://gor-crb.ucoz.ru/Babners/Koronavirus.jpg" width="240" height="80"></a>');

@@ -1,0 +1,1 @@
+document.write('<a href="https://gor-crb.ucoz.ru/rtr/5-11-1" target="_blank"><img alt="" border="0" src="http://gor-crb.ucoz.ru/dispanserizacija.jpg" width="240" height="120"></a>');
